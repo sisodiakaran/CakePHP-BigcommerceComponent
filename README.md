@@ -1,15 +1,17 @@
 # BigcommerceComponent for CakePHP
 
-BigcommerceComponent is simple to use CakePHP componet. Some basic fetures are added in this component like
+BigcommerceComponent is simple to use CakePHP component. Some basic fetures are as follows
 <ol>
 	<li>Get Products List</li>
 	<li>Get Customers List</li>
 </ol>
 
 ## How to integrate?
-1. First you need to load BigcommerceComponent in your controller
+1. Copy all files and folders to your project directory.
+2. Edit your credentials in ```BigcommerceComponent.php```
+3. Now load BigcommerceComponent in your controller
 	```public $components = array('BigCommerce');```
-2. Now call component functions like
+4. Then call component functions like
 	```$products = $this->Bigcommerce->getProductList();```
 	
 ## License
